@@ -1,0 +1,24 @@
+@mixin containerBase() {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@mixin sectionBase() {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+@mixin listBase() {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@mixin flexBase {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
