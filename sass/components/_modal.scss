@@ -187,7 +187,8 @@
   position: absolute;
   opacity: 0;
   background-color: var(--primary-hover-color);
-  @include flexBase border-radius: 2px;
+  @include flexBase;
+  border-radius: 2px;
 
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
